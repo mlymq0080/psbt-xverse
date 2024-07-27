@@ -1,0 +1,57 @@
+{
+  "name": "PSBT-XVERSE",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@scure/base": "^1.1.7",
+    "@scure/btc-signer": "^1.3.2",
+    "ant-design-vue": "^4.1.2",
+    "axios": "^1.7.1",
+    "big-varuint-js": "^0.2.1",
+    "bitcoinjs-lib": "^6.1.6",
+    "buffer": "^6.0.3",
+    "core-js": "^3.8.3",
+    "element-plus": "^2.5.6",
+    "js-cookie": "^3.0.5",
+    "micro-ordinals": "^0.1.1",
+    "qs": "^6.11.2",
+    "sats-connect": "2.5.x",
+    "vue": "^3.2.13",
+    "vue-clipboard3": "^2.0.0",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
